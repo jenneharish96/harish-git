@@ -1,0 +1,96 @@
+body {
+    background-color: #8CDA0A;
+}
+
+html,
+body,
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    height: 95%;
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.section {
+    flex: 1 40%;
+    background-color: #7CBF00;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    flex: 1 50%;
+}
+
+.logo {
+    flex: 1;
+}
+
+.navigation {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.left-content,
+.right-content {
+    flex: 1;
+}
+
+.left-content h1 {
+    color: #91D913;
+    font-size: 3rem;
+    padding-top: 2vw;
+}
+
+.left-content p {
+    color: #ffffff;
+    padding-top: 1vw;
+    font-size: 1.5rem;
+}
+
+.left-content {
+    padding-left: 10%;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.right-content {
+    height: 100%;
+    width: 100%;
+}
+
+.right-content img {
+    height: 100%;
+    width: 100%;
+}
